@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation-jQuery</title>
+<link rel="stylesheet" href="all.css">
+<script src="all.js"></script>
+<script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+  
+        <button type="button" class="request-book">Book</button>
+        <div class="box">
+        <h1>Reservation Information</h1>
+        
+        <form class="reservation-form" action="#">
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" class="input-border" required></input>
+      
+       <label for="tel">Phone:</label>
+        <input id="tel" name="tel" type="number" class="input-border"required ></input>
+      
+       <label for="date">Date:</label>
+        <input id="date" name="date" type="date" class="input-border" placeholder="YYYY-MM-DD"required></input>
+      
+      <div class="note">
+        <label for="note">Note:</label>
+        <textarea name="note"  cols="30"rows="5" class="notearea"></textarea>
+        </div>
+      <button type="button" class="request-note">Note</button>
+      <button type="type" class="submit">Submit</button>
+      
+      </form>
+      </div>
+      </div>
+</body>
+</html>
